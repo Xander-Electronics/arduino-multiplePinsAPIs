@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For multiplePinOps
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+multiplePinOps	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+multiplePinMode	KEYWORD2
+multipleDigitalWrite	KEYWORD2
+multipleDigitalRead	KEYWORD2
+multipleAnalogRead	KEYWORD2
+multipleAnalogWrite	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
