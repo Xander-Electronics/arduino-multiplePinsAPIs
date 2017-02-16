@@ -24,7 +24,7 @@ void multipleDigitalWrite(const int *pins, const int numberOfPins, uint16_t numb
   }
 }
 
-uint16_t multipleDigitalRead(const int *pins, const int numberOfPins) {
+uint64_t multipleDigitalRead(const int *pins, const int numberOfPins) {
   uint16_t value = 0;
   for (uint8_t i = 0; i < numberOfPins; i++) {
     if (digitalRead(pins[i])) {

@@ -9,7 +9,7 @@
 
 void multiplePinMode(const int *pins, const int numberOfPins, uint8_t mode);
 void multipleDigitalWrite(const int *pins, const int numberOfPins, uint16_t number);
-uint16_t multipleDigitalRead(const int *pins, const int numberOfPins);
+uint64_t multipleDigitalRead(const int *pins, const int numberOfPins);
 void multipleAnalogRead(const int *pins, const int numberOfPins, int *values);
 void multipleAnalogWrite(const int *pins, const int numberOfPins, uint8_t* values);
 
